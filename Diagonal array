@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class diaarray
+{
+public static void main(String args[])
+{
+
+Scanner sc=new Scanner(System.in);
+System.out.print("enter row");
+int r=sc.nextInt();
+System.out.print("enter column");
+int c=sc.nextInt();
+
+int ar[][]=new int[r][c];
+  if(r==c)
+   {
+     System.out.print("daigonal matrix");
+   }
+   else
+   {
+    System.out.print("not daigonal matrix");
+    }
+  }
+}

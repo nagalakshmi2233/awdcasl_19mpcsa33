@@ -1,0 +1,16 @@
+import java.util.*;
+class hackerrank
+{	
+public static void main(String args[])	
+{
+	
+	Scanner sc=new Scanner(System.in);
+	System.out.print("string");
+        String st=sc.nextLine();
+	StringBuffer sb=new StringBuffer(st);
+	System.out.print(sb.tosetCharAt(0));
+	System.out.print(sb.tosetCharAt(7));
+        System.out.print(sb.toreplace('e',l));
+	System.out.print(sb.toreplace('l',e));
+}
+}

@@ -1,0 +1,22 @@
+class leetcode
+   {
+  public int compress(ch'[] chars) 
+    {
+     char ch=chars[index];
+     index=0;
+     int count=0;
+     for(int i=0;i<=ch.length;i++)
+        {
+        if(str.charAt(i)==str.charAt(i+1))
+          index++;
+          count++;   
+      System.out.print( str.charAt(i) +" "+count);   
+        }
+    }
+    public  static  void main(String args[])
+     {
+    Scanner sc=new Scanner(System.in);
+    System.out.print("enter string");
+    str=sc.next();
+    }
+  }

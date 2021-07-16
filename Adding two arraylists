@@ -1,0 +1,22 @@
+import java.util.*;
+class addarray
+{
+public static void main(String args[])
+{
+ArrayList<Integer>a=new ArrayList<Integer>();
+ArrayList<Integer>b=new ArrayList<Integer>();
+ArrayList<Integer>a1=new ArrayList<Integer>();
+a.add(10);
+a.add(20);
+a.add(30);
+a.add(40);
+b.add(50);
+b.add(60);
+b.add(60);
+System.out.print("list a" +a);
+System.out.print("list b" +b);
+a1.addAll(a);
+a1.addAll(b);
+System.out.println("list a1" +a1);
+}
+}
